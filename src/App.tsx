@@ -37,9 +37,9 @@ function App() {
             <Route path="sales" element={<SalesPage />} />
             <Route path="customers" element={<CustomersPage />} />
             <Route path="suppliers" element={<SuppliersPage />} />
-            <Route path="reports" element={<div className="p-6">Reports Page</div>} />
+            <Route path="reports" element={<div className="p-5">Reports Page</div>} />
             <Route path="settings" element={<div className="p-6">Settings Page</div>} />
-            <Route path="help" element={<div className="p-6">Help & Support Page</div>} />
+            <Route path="help" element={<div className="p-5">Help & Support Page</div>} />
           </Route>
           
           <Route path="*" element={<Navigate to="/" replace />} />
