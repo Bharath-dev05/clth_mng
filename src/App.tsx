@@ -25,7 +25,7 @@ function App() {
     <AppProvider>
       <Router>
         <Routes>
-          <Route path="/login" element={<LoginPage />} />
+          <Route path="/login" element={<MainLayout />} />
           
           <Route path="/" element={
             <ProtectedRoute>
